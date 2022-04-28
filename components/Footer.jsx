@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer>
-      <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 border-t-2 border-gray-200">
+    <footer className=" w-5/6">
+      <div className="  max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 border-t-2 border-gray-200">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <Image src="/logo.svg" alt="logo" width={100} height={100} />
