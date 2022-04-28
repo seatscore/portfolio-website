@@ -1,12 +1,14 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 import Image from "next/image";
 import SliderImage from "../components/SliderImage";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import "swiper/css/bundle"
 const Slider = () => {
    const  CardsInfo=[
         {title:"Mobile Application & PC web app",
@@ -54,6 +56,7 @@ const Slider = () => {
         loopFillGroupWithBlank={true}
         pagination={{
           clickable: true,
+          
         }}
         navigation={true}
         modules={[Pagination, Navigation]}

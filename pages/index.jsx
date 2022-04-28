@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <main className="   text-white  ">
-        <div className="  w-full sm:h-screen flex sm:flex-row flex-col  ">
+      <main className="   text-white flex flex-col items-center justify-center  ">
+        <div className=" w-full sm:w-5/6 sm:h-screen flex sm:flex-row flex-col  ">
           <div className="w-full h-full flex z-10 pl-4  items-start  space-y-12 absolute flex-col   sm:static  sm:w-1/2 sm:justify-center sm:items-left sm:space-y-12    ">
             <h1 className="text-lg  text-left  sm:text-2xl font-bold pt-12 sm:pt-0 mr-48 sm:mr-0 ">
               BEST ATTENDANCE SOLUTION FOR YOU COMPANY <br />

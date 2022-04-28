@@ -3,7 +3,7 @@ import Link from "next/link";
 const NavBar = () => {
   return (
     <div class=" flex flex-row items-center p-1  sm:justify-between  ">
-      <div class="ml-8 text-lg text-gray-700 flex ">
+      <div class=" ml-2 sm:ml-24 text-lg text-gray-700 flex ">
         {" "}
         <Image src="/logo.svg" alt="logo" width={100} height={100} />
       </div>
