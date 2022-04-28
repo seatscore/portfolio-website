@@ -9,22 +9,43 @@ import Image from "next/image";
 import SliderImage from "../components/SliderImage";
 const Slider = () => {
    const  CardsInfo=[
-        {title:"Seat-Score",
-        desc:"A smart attendance solution for dynamic companies & start-ups that has needs dynamic attendance solutions",
+        {title:"Mobile Application & PC web app",
+        
         img:"/LandingPagePic 1.png",}
         ,
-        {title:"Seat-Score",
-        desc:"A smart attendance solution for dynamic companies & start-ups that has needs dynamic attendance solutions",
+        {title:"Multiple working location per company/startup        ",
+        
         img:"/LandingPagePic 1.png",}
         ,
-        {title:"Seat-Score",
-        desc:"A smart attendance solution for dynamic companies & start-ups that has needs dynamic attendance solutions",
+        {title:"Multiple working calendars per company/startup",
+       
+        img:"/LandingPagePic 1.png",}
+        ,
+        {title:"Dynamic reports for employees attendance history",
+       
+        img:"/LandingPagePic 1.png",}
+        ,
+        {title:"Shifts management for future attendance",
+       
+        img:"/LandingPagePic 1.png",}
+        ,
+        {title:"Change attendance requests",
+       
+        img:"/LandingPagePic 1.png",}
+        ,
+        {title:"Time off requests",
+       
+        img:"/LandingPagePic 1.png",}
+        ,
+        {title:"Announcements wall",
+       
         img:"/LandingPagePic 1.png",}
         ,
 
     ]
   return (
-    <div className="w-full h-auto   ">
+    <div className="w-full h-auto   "> 
+    <h1 className="text-4xl p-2 pb-12 ml-12">Features</h1>
       <Swiper
         slidesPerView={1}
         spaceBetween={20}
@@ -64,7 +85,7 @@ const Slider = () => {
           {CardsInfo.map((card,index)=>{
                 return(
                     <SwiperSlide key={index} className="w-full flex justify-center items-center ">
-                        <SliderImage title={card.title} desc={card.desc} img={card.img}/>
+                        <SliderImage title={card.title}  img={card.img}/>
                     </SwiperSlide>
                 )
           }
