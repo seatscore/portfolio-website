@@ -17,7 +17,7 @@ module.exports = {
       animation: {
         "bounce-slow": "bounce 6s linear infinite",
 
-        wiggle: "wiggle 6s ease-in-out infinite",
+        wiggle: "wiggle 24s ease-in-out infinite",
         cursor: "cursor .6s linear infinite alternate",
         type: "type 2.8s ease-out .5s 1 normal both",
         "type-reverse":

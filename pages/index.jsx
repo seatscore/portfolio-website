@@ -6,12 +6,15 @@ import Slider from "../components/Slider";
 import PriceCard from "../components/PriceCard";
 import Footer from "../components/Footer";
 import { useRef } from "react";
+import Header from "../components/Header";
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 export default function Home() {
   const myRef = useRef(null);
 
   return (
+    
     <>
+    <Header/>
       <NavBar />
       <main className="   text-white flex flex-col items-center justify-center  ">
         <div className=" w-full sm:w-5/6 sm:h-screen flex sm:flex-row flex-col  ">
@@ -31,7 +34,7 @@ export default function Home() {
               See More
             </button>
           </div>
-          <div className=" w-full sm:w-1/2 h-500   flex items-center justify-center z-0 pt-20 sm:pt-24  animate-bounce-slow ">
+          <div className=" w-full sm:w-1/2 h-500   flex items-center justify-center z-0 pt-20 sm:pt-72  " class="floating"  >
             <Image
               src="/LandingPagePic 1.png"
               alt="Picture of the author"
@@ -65,8 +68,8 @@ export default function Home() {
             className="absolute z-100 w-5/6 sm:w-3/4 md:w-3/4 lg:w-1/2    text-center  "
             ref={myRef}
           >
-            <h1 className="text-xl text-yellow-300">What is Seat-Score </h1>
-            <p>
+            <h1 className="text-xl sm:text-4xl text-yellow-300">What is Seat-Score </h1>
+            <p className="text-sm sm:text-xl">
               A smart attendance solution for dynamic companies & start-ups that
               needs advanced solutions for monitoring and tracking of their
               staff
