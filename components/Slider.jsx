@@ -11,7 +11,7 @@ import 'swiper/css/scrollbar';
 import "swiper/css/bundle"
 const Slider = () => {
    const  CardsInfo=[
-        {title:"Mobile Application & PC web app",
+        {title:"Mobile Application & web app",
         
         img:"/LandingPagePic 1.png",}
         ,
