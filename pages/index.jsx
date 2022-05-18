@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { uploadcareLoader } from "@uploadcare/nextjs-loader";
 import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 import Slider from "../components/Slider";
@@ -34,13 +35,14 @@ export default function Home() {
               See More
             </button>
           </div>
-          <div className=" w-full sm:w-1/2 h-500   flex items-center justify-center z-0 pt-20 sm:pt-72  " class="floating"  >
+          <div className=" w-full sm:w-1/2 h-500   flex items-center justify-center z-0 pt-20 sm:pt-72  " id="floating"  >
             <Image
               src="/LandingPagePic 1.png"
               alt="Picture of the author"
               width={771}
               height={668}
               priority
+              loader={uploadcareLoader}
             />
           </div>
         </div>
@@ -52,6 +54,7 @@ export default function Home() {
               width={1210}
               height={400}
               priority
+              loader={uploadcareLoader}
             />
           </span>
           <span className="w-full relative flex items-center justify-center  md:hidden ">
@@ -61,6 +64,7 @@ export default function Home() {
               width={1210}
               height={900}
               priority
+              loader={uploadcareLoader}
             />
           </span>
 
@@ -101,6 +105,7 @@ export default function Home() {
               height={565}
               priority
               className="animate-[wiggle_1s_ease-in-out_infinite]"
+              loader={uploadcareLoader}
             />
           </div>
         </div>

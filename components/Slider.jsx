@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
-import Image from "next/image";
 import SliderImage from "../components/SliderImage";
 import 'swiper/css';
 import 'swiper/css/navigation';

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { uploadcareLoader } from '@uploadcare/nextjs-loader';
 import Link from "next/link";
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="  max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 border-t-2 border-gray-200">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <Image src="/logo.svg" alt="logo" width={100} height={100} />
+            <Image src="/logo.svg" alt="logo" width={100} height={100} loader={uploadcareLoader} />
             <p className="max-w-xs mt-4 text-sm text-gray-600">
               DEVELOPED BY INTEGRATED PATH{" "}
             </p>
@@ -45,85 +46,34 @@ const Footer = () => {
             <div>
               <p className="font-medium">Company</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  About{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  Meet the Team{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  History{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  Careers{" "}
-                </a>
+                <a className="hover:opacity-75"> About </a>
+                <a className="hover:opacity-75"> Meet the Team </a>
               </nav>
             </div>
             <div>
               <p className="font-medium">Services</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a className="hover:opacity-75" href>
+                <a className="hover:opacity-75"> HR Sollutions </a>
+                <a className="hover:opacity-75"> Employees Live Tracking </a>
+                <a className="hover:opacity-75"> Relaiable Statisctics </a>
+                <a className="hover:opacity-75">
                   {" "}
-                  1on1 Coaching{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  Company Review{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  Accounts Review{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  HR Consulting{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  SEO Optimisation{" "}
+                  Mobile Solution For Employees{" "}
                 </a>
               </nav>
             </div>
             <div>
               <p className="font-medium">Helpful Links</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  Contact{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  FAQs{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  Live Chat{" "}
-                </a>
+                <a className="hover:opacity-75"> Contact </a>
+
+                <a className="hover:opacity-75"> Live Chat </a>
               </nav>
             </div>
             <div>
               <p className="font-medium">Legal</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  Privacy Policy{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  Terms &amp; Conditions{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  Returns Policy{" "}
-                </a>
-                <a className="hover:opacity-75" href>
-                  {" "}
-                  Accessibility{" "}
-                </a>
+                <a className="hover:opacity-75"> Privacy Policy </a>
               </nav>
             </div>
           </div>

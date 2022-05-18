@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 const PriceCard = ({ props, height, bgCOLOR }) => {
   return (
     <div className=" flex flex-col  md:flex-row justify-center items center   mb-12   sm:space-x-12   w-full  ">
