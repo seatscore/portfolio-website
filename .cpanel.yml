@@ -1,4 +1,0 @@
-deployment:
-tasks:
-- export DEPLOYPATH=/home/Users/ayasa/Desktop/integreted_path/seat-score-portfolio/.ne
-- /bin/cp -r * $DEPLOYPATH
