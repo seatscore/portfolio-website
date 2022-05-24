@@ -1,0 +1,4 @@
+deployment:
+tasks:
+- export DEPLOYPATH=/home/077y8597e6yu/repositories/portfolio-website
+- /bin/cp -r * $DEPLOYPATH
