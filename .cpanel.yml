@@ -1,4 +1,4 @@
 deployment:
 tasks:
-- export DEPLOYPATH=/home/077y8597e6yu/repositories/portfolio-website
+- export DEPLOYPATH=/home/Users/ayasa/Desktop/integreted_path/seat-score-portfolio/out
 - /bin/cp -r * $DEPLOYPATH
