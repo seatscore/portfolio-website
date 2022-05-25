@@ -13,13 +13,11 @@ export default function Home() {
   const myRef = useRef(null);
 
   return (
-    
     <>
-    <Header/>
+      <Header />
       <NavBar />
       <main className="   text-white flex flex-col items-center justify-center  ">
         <div className=" w-full sm:w-5/6 sm:h-screen flex sm:flex-row flex-col  ">
-       
           <div className="mb-16 group  w-full h-full flex z-10 pl-4  items-start  space-y-12 absolute flex-col   sm:static  sm:w-1/2 sm:justify-center sm:items-left sm:space-y-12   ">
             <h1 className=" text-4xl sm:text-6xl ">
               DEVELOPED BY <br />
@@ -35,7 +33,10 @@ export default function Home() {
               See More
             </button>
           </div>
-          <div className=" w-full sm:w-1/2 h-500   flex items-center justify-center z-0 pt-20 sm:pt-72  " id="floating"  >
+          <div
+            className=" w-full sm:w-1/2 h-500   flex items-center justify-center z-0 pt-20 sm:pt-72  "
+            id="floating"
+          >
             <Image
               src="/LandingPagePic 1.png"
               alt="Picture of the author"
@@ -72,7 +73,9 @@ export default function Home() {
             className="absolute z-100 w-5/6 sm:w-3/4 md:w-3/4 lg:w-1/2    text-center  "
             ref={myRef}
           >
-            <h1 className="text-xl sm:text-4xl text-yellow-300">What is Seat-Score </h1>
+            <h1 className="text-xl sm:text-4xl text-yellow-300">
+              What is Seat-Score{" "}
+            </h1>
             <p className="text-sm sm:text-xl">
               A smart attendance solution for dynamic companies & start-ups that
               needs advanced solutions for monitoring and tracking of their
@@ -90,10 +93,10 @@ export default function Home() {
               <span className="text-yellow-400">GPS</span> Attendance
             </h1>
             <p className="m-12 ">
-              seatScore has a unique feature that allows you to track your staff
-              in real time with optimized algorathim to provide the best
-              accurate data for your employees location and their attendance log
-              .
+              GPS determines the location and time, so Seat Score GPS determines
+              the location of the company so that the employee can check in and
+              check out when entering the company and leaving it, as well as any
+              other location the employee goes to specified by the manager.
             </p>
           </div>
 

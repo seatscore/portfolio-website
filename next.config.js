@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     loader: "custom"
   },
-  basePath: '/portfolio',
+  
 }
 
 module.exports = nextConfig
