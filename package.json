@@ -1,5 +1,6 @@
 {
   "name": "seat-score-portfolio",
+  "home":"www.seat-score.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
