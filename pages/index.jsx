@@ -37,35 +37,26 @@ export default function Home() {
             className=" w-full sm:w-1/2 h-500   flex items-center justify-center z-0 pt-20 sm:pt-72  "
             id="floating"
           >
-            <Image
+            <img
               src="/LandingPagePic 1.png"
               alt="Picture of the author"
-              width={771}
-              height={668}
-              priority
-              loader={uploadcareLoader}
+             
             />
           </div>
         </div>
         <div className=" w-full  flex items-center justify-center z-0  sm:p-0  realtive ">
           <span className="w-full relative md:flex items-center justify-center hidden  ">
-            <Image
+            <img
               src="/background.png"
               alt="Picture of the author"
-              width={1210}
-              height={400}
-              priority
-              loader={uploadcareLoader}
+          
             />
           </span>
           <span className="w-full relative flex items-center justify-center  md:hidden ">
-            <Image
+            <img
               src="/background.png"
               alt="Picture of the author"
-              width={1210}
-              height={900}
-              priority
-              loader={uploadcareLoader}
+           
             />
           </span>
 
@@ -101,14 +92,13 @@ export default function Home() {
           </div>
 
           <div className=" w-full sm:w-1/2 h-500   flex items-center justify-center z-0 pt-56 sm:p-0  ">
-            <Image
+            <img
               src="/map.png"
               alt="Picture of the author"
-              width={565}
-              height={565}
+            
               priority
               className="animate-[wiggle_1s_ease-in-out_infinite]"
-              loader={uploadcareLoader}
+              
             />
           </div>
         </div>
